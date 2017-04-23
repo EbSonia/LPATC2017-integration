@@ -1,0 +1,73 @@
+//<!-- fond -->
+#content {
+  //width: 1400px;
+  //height: 3317px;
+  background-color: $white-three;
+  //margin-left: 60px;
+  //margin-right: 60px;
+}
+
+
+//<!-- Header -->
+//#header {
+  //width: 1280px;
+  //height: 95px;
+  //margin-top: 32px;
+//}
+
+#header #identite {
+  //float:left;
+  //width: 249px;
+  //height: 95px;
+  //margin-left: 19px;
+  margin-top:32px;
+}
+
+//<!-- Blocks -->
+#block1{
+  //margin-left: 10px;
+  //margin-right: 40px;
+  display: inline-block;
+}
+
+#block2{
+  //margin-left: 10px;
+  display: inline-block;
+  margin-top:61px;
+}
+#block3{
+  //margin-left: 10px;
+  display: inline-block;
+  margin-top:41px;
+}
+
+//<!-- Navigation -->
+#header #nav ul{
+  //height: 63px;
+  float:left;
+  //margin-left: 52px;
+  list-style:none;
+}
+
+#header #nav li{
+  //float:left;
+  margin-right: 40px;
+  //margin-top: 61px;
+  //margin-right: 287px;
+  display: inline-block;
+}
+
+//<!-- Recherche + Menu -->
+#header #nav-bis ul{
+  //height: 63px;
+  float:left;
+  list-style:none;
+  display: inline-block;
+}
+#header #nav-bis li{
+  //float:left;
+  //padding-right: 40px;
+  //margin-left: 52px;
+  //margin-top: 54px;
+  //display: inline-block;
+}

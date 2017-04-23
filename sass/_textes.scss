@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$open-sans:'Open Sans', sans-serif;
+$montserrat:'Montserrat',sans-serif;
+
+.Partageons-la-ville {
+  font-family: $open-sans;
+  font-size: 12px;
+  color: rgba(70, 87, 99, 0.85);
+}
+
+#li {
+  font-family: $open-sans;
+  font-size: 18px;
+  text-align: center;
+  color: $charcoal-grey;
+  list-style:none;
+}
