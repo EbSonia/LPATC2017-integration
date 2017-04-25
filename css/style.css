@@ -15,20 +15,17 @@
   list-style: none; }
 
 #content {
+  width: 1400px;
+  height: 3317px;
   background-color: #fafafa; }
 
 #header #identite {
   margin-top: 32px; }
 
-#block1 {
-  display: inline-block; }
-
 #block2 {
-  display: inline-block;
   margin-top: 61px; }
 
 #block3 {
-  display: inline-block;
   margin-top: 41px; }
 
 #header #nav ul {
@@ -40,9 +37,12 @@
   display: inline-block; }
 
 #header #nav-bis ul {
-  float: left;
-  list-style: none;
-  display: inline-block; }
+  display: inline-block;
+  list-style: none; }
+
+#header #nav-bis li {
+  float: right;
+  padding-right: 40px; }
 
 html,
 body,
@@ -55,8 +55,10 @@ ol {
   width: 1280px;
   height: 308px;
   background-color: #34414a;
-  position: fixed;
-  bottom: 0;
-  position: center; }
+  bottom: 0; }
+
+#block4 {
+  margin-left: 60px;
+  margin-right: 60px; }
 
 /*# sourceMappingURL=style.css.map */

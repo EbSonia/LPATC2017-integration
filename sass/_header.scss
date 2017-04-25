@@ -1,7 +1,9 @@
+
+
 //<!-- fond -->
 #content {
-  //width: 1400px;
-  //height: 3317px;
+  width: 1400px;
+  height: 3317px;
   background-color: $white-three;
 }
 
@@ -23,19 +25,17 @@
 
 //<!-- Blocks -->
 #block1{
-  //margin-left: 10px;
-  //margin-right: 40px;
-  display: inline-block;
+
 }
 
 #block2{
   //margin-left: 10px;
-  display: inline-block;
+  //display: inline-block;
   margin-top:61px;
 }
 #block3{
   //margin-left: 10px;
-  display: inline-block;
+  //display: inline-block;
   margin-top:41px;
 }
 
@@ -58,14 +58,13 @@
 //<!-- Recherche + Menu -->
 #header #nav-bis ul{
   //height: 63px;
-  float:left;
-  list-style:none;
+  //float:left;
   display: inline-block;
+  list-style:none;
 }
 #header #nav-bis li{
-  //float:left;
-  //padding-right: 40px;
+  float:right;
+  padding-right: 40px;
   //margin-left: 52px;
   //margin-top: 54px;
-  //display: inline-block;
 }
