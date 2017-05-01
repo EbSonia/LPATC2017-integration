@@ -10,7 +10,6 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
@@ -24,7 +23,7 @@
   <div class="container">
     <div id="header">
       <div class="row">
-        <div id="block1" class="col-md-4">
+        <div id="block1" class="col-md-3">
              <div id="identite">
                <div id="logo"><img src="images/logo-archi-wiki.png"></div>
                <div class="Partageons-la-ville">Partageons la ville, ses bâtiments, ses lieux</div>
@@ -41,7 +40,7 @@
                </ul>
              </div>
         </div>
-        <div id="block3" class="col-md-1">
+        <div id="block3" class="col-md-2">
                <div id="nav-bis">
                  <ul>
                    <li><a href="" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
@@ -58,20 +57,45 @@
   <div id="main">
    <div class="container">
        <div class="row">
-             <div id="block4">
-                <div id="photo1"><img src="images/photo1.jpeg"></div>
-                <div id="textePhoto1"><h6>Lumière sur...</h6>
-                   <h3>36 rue du Vieux Marché aux Poissons</h3>
-                   <p></p>
-                   <p>Lorem ipsum Cum saepe multa, tum memini domi in hemicyclio sedentem, ut solebat, cum et ego essem una et pauci admodum familiares, in eum sermonem illum incidere qui tum forte multis erat in ore. Meministi enim profecto, Attice, et eo magis, quod P. Sulpicio utebare multum, cum is tribunus plebis capitali odio a Q. Pompeio, qui tum erat consul, dissideret, quocum coniunctissime et amantissime vixerat, quanta esset hominum vel admiratio vel querella.</p>
-                   <p>Lien</p>
+             <div id="block4" class="col-12">
+                <div id="photo1"><img class=img-responsive src="images/photo1b.png" style=max-width:85%></div>
+                <div id="textePhoto1"><h5>Lumière sur...</h5>
+                  <h2>36 rue du Vieux Marché aux Poissons</h2>
+                  <!-- Fil d'ariane...a voir -->
+                   <p>France > Strasbourg</p>
+                   <p class="lorem">Lorem ipsum Cum saepe multa, tum memini domi in hemicyclio sedentem, ut solebat, cum et ego essem una et pauci admodum familiares, in eum sermonem illum incidere qui tum forte multis erat in ore. Meministi enim profecto, Attice, et eo magis, quod P. Sulpicio utebare multum, cum is tribunus plebis capitali odio a Quanta esset hominum vel admiratio vel querella.</p>
+                   <p class="lien">Découvrez cette fiche</p>
                 </div>
              </div>
-             <div id="block5">
 
+             <div id="block5" class="col-6">
+               <div id="Recherche">
+                 <div id="rechercheTitre">
+                   <h3 class="text-center">Recherchez à travers nos 117 adresses</h3>
+                </div>
+
+                <!-- Recherche -->
+
+                  <div class="col-lg-6">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search for...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                      </span>
+                    </div>
+                  </div><!-- fin recherche -->
+              </div>
              </div>
-             <div id="block6">
 
+             <div id="block6">
+               <div id="archi-wiki" class="col-lg-5">
+                 <h3> Archi-Wiki, c'est qui ?</h3>
+                 <p>Lorem ipsum Cum saepe multa, tum memini domi in hemicyclio sedentem</p>
+               </div>
+               <div id="archi-wiki" class="col-lg-7">
+                 <h3> Dernières actualités de l'association : <br/> Ode à la création, appel à la contribution</h3>
+                 <p>Lorem ipsum Cum saepe multa, tum memini domi in hemicyclio sedentem</p>
+               </div>
              </div>
        </div>
    </div>

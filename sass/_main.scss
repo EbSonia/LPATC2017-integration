@@ -1,9 +1,36 @@
-$margin-left:60px;
-$margin-right:60px;
+//$margin-left:60px;
+//$margin-right:60px;
 
+            // <!-- Block 4 -->
+//#block4{
+//display: inline-block;
+//margin-right:$margin-right;
+//}
 
+#photo1{
+display: inline-block;
+float:left;
+//max-width:50%;
+//object-fit: contain;
+//max-width:85%;
+}
 
-#block4{
-margin-left:$margin-left;
-margin-right:$margin-right;
+#textePhoto1{
+display: inline-block;
+width : 40%;
+margin-left:-100px;
+}
+
+              // <!-- Block 5 -->
+#block5{
+              display: inline-block;
+              //margin-right:$margin-right;
+  text-align:center;
+}
+
+#Recherche {
+  width: 1280px;
+  height: 167px;
+  background-color: $earth;
+  text-align:center;
 }
