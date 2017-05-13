@@ -7,6 +7,7 @@
 //margin-right:$margin-right;
 //}
 
+
 #photo1{
 display: inline-block;
 float:left;
@@ -16,9 +17,9 @@ float:left;
 }
 
 #textePhoto1{
-display: inline-block;
-width : 40%;
-margin-left:-100px;
+  display: inline-block;
+//width : 40%;
+//margin-left:-100px;
 }
 
               // <!-- Block 5 -->
@@ -48,30 +49,20 @@ margin-left:-100px;
 }
 
                   // <!-- Block 6 -->
-
-#archi-wiki {
-  //width: 516px;
-  //height: 408px;
+.col-lg-5 {
   background-color: $white-two;
-  font-family:$open-sans;
-  font-size: 16px;
-  color: $dark;
-  padding-left:30px;
+  //padding-left:60px;
 }
-
 
 #photo2 {
   max-width: 248px;
+  //margin-bottom:100px;
 //padding-right:30px;
   //float:left;
 }
 
 #textePhoto2{
-  //display: inline-block;
-  //float:right;
-  font-family:$open-sans;
-  font-size: 16px;
-  color: $dark;
+  @extend .texteCourant;
 }
 
 #lireSuite{
@@ -82,5 +73,52 @@ margin-left:-100px;
 
 #decActus{
   display: inline-block;
-  text-aligne:right;
+  //text-align:right;
+}
+
+                  // <!-- Block 7 -->
+#photoBloc1{
+  display: inline-block;
+  float:left;
+  text-align:left;
+  width: 375px;
+  padding-right:30px;
+  padding-top:30px;
+  padding-bottom: 30px;
+  //width: 407px;
+  //height: 350px;
+}
+#texteBloc1{
+  @extend .texteCourant;
+  display: inline-block;
+  max-width: 355px;
+  line-height: 1.5;
+}
+
+#Bloc2{
+  display: inline-block;
+  padding-right:30px;
+  float:right;
+}
+#Bloc3{
+  display: inline-block;
+}
+#Bloc4{
+  display: inline-block;
+  padding-right:30px;
+  float:right;
+}
+#Bloc5{
+  display: inline-block;
+}
+
+
+#photoBloc2{
+  width: 355px;
+}
+#texteBloc2{
+  @extend .texteCourant;
+  max-width: 355px;
+  line-height: 1.5;
+  background-color: $backgroundBlock7;
 }

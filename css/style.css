@@ -1,19 +1,39 @@
 /* Color palette */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300i");
 @import url("https://github.com/twbs/bootstrap-sass");
-.Partageons-la-ville {
+.texteCourant, .lorem, #textePhoto2, #texteBloc1, #texteBloc2 {
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  color: rgba(70, 87, 99, 0.85); }
+  font-size: 16px;
+  color: #222a30;
+  padding-right: 30px;
+  padding-left: 30px; }
 
-#li {
+.lien {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  text-align: center;
-  color: #34414a;
-  list-style: none; }
+  font-size: 14px;
+  line-height: 1.71;
+  color: #a65447; }
 
+.loremItalique {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.71;
+  color: #465763; }
+
+/*
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0;
+}
+*/
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
@@ -24,8 +44,16 @@ h2 {
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
-  font-weight: bold;
+  padding-left: 30px;
+  font-style: bold;
   color: #ebebeb; }
+
+h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.3;
+  color: #34414a; }
 
 h5 {
   font-family: "Montserrat", sans-serif;
@@ -34,19 +62,14 @@ h5 {
   line-height: 1.31;
   color: #34414a; }
 
-.lorem {
+.Partageons-la-ville {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #222a30; }
+  font-size: 12px;
+  color: rgba(70, 87, 99, 0.85); }
 
-.lien {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  line-height: 1.71;
-  text-align: left;
-  color: #a65447; }
+.lorem {
+  line-height: 1.5;
+  text-align: left; }
 
 #content {
   width: 1400px;
@@ -64,6 +87,13 @@ h5 {
 
 #block3 {
   margin-top: 41px; }
+
+#li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #34414a;
+  list-style: none; }
 
 #header #nav ul {
   float: left;
@@ -100,9 +130,7 @@ p {
   float: left; }
 
 #textePhoto1 {
-  display: inline-block;
-  width: 40%;
-  margin-left: -100px; }
+  display: inline-block; }
 
 #block5 {
   display: inline-block;
@@ -123,20 +151,11 @@ p {
   padding-top: 10px;
   color: #fafafa; }
 
-#archi-wiki {
-  background-color: #ebebeb;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  color: #222a30;
-  padding-left: 30px; }
+.col-lg-5 {
+  background-color: #ebebeb; }
 
 #photo2 {
   max-width: 248px; }
-
-#textePhoto2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  color: #222a30; }
 
 #lireSuite {
   display: inline-block;
@@ -144,7 +163,44 @@ p {
   position: fixed; }
 
 #decActus {
+  display: inline-block; }
+
+#photoBloc1 {
   display: inline-block;
-  text-aligne: right; }
+  float: left;
+  text-align: left;
+  width: 375px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+#texteBloc1 {
+  display: inline-block;
+  max-width: 355px;
+  line-height: 1.5; }
+
+#Bloc2 {
+  display: inline-block;
+  padding-right: 30px;
+  float: right; }
+
+#Bloc3 {
+  display: inline-block; }
+
+#Bloc4 {
+  display: inline-block;
+  padding-right: 30px;
+  float: right; }
+
+#Bloc5 {
+  display: inline-block; }
+
+#photoBloc2 {
+  width: 355px; }
+
+#texteBloc2 {
+  max-width: 355px;
+  line-height: 1.5;
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
