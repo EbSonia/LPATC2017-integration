@@ -158,8 +158,6 @@ p {
         border: solid 2px #fafafa;
         position: 50%;
         margin: 30px; }
-        #footer #block12 ul li p::before {
-          content: url(./images/twitter.png); }
 
 #photo1 {
   display: inline-block;
