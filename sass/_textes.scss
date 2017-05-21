@@ -11,8 +11,8 @@ $montserrat:'Montserrat',sans-serif;
   font-family:$open-sans;
   font-size: 16px;
   color: $dark;
-  padding-right: 30px;
-  padding-left: 30px;
+  //padding-right: 30px;
+  //padding-left: 30px;
 }
 
 .lien{
@@ -23,12 +23,24 @@ $montserrat:'Montserrat',sans-serif;
   color: $earth;
 }
 
+.lorem{
+  @extend .texteCourant;
+  line-height: 1.5;
+  text-align: left;
+}
+
 .loremItalique {
   font-family: $open-sans;
   font-size: 14px;
   font-style: italic;
   line-height: 1.71;
   color: #465763;
+}
+
+.Partageons-la-ville {
+  font-family: $open-sans;
+  font-size: 12px;
+  color: rgba(70, 87, 99, 0.85);
 }
 
 /*
@@ -65,7 +77,7 @@ h3{
 }
 
 h4{
-  font-family: Montserrat;
+  font-family: $montserrat;
   font-size: 20px;
   font-weight: bold;
   line-height: 1.3;

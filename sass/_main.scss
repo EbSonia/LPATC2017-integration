@@ -7,122 +7,111 @@ float:left;
 
 #textePhoto1{
   display: inline-block;
-  width : 40%;
-  #retrait{
-    margin-left:-500px;
-    }
+  margin-left:-500px;
 }
 
               // <!-- Block 5 -->
 #block5{
   display: inline-block;
   text-align:center;
-}
-
-#Recherche {
-  height: 167px;
-  background-color: $earth;
-  text-align:center;
-}
-
-#rechercheTitre {
-  padding-top: 10px;
-}
-
-#recherche-avance {
-  font-family:$open-sans;
-  font-size: 10px;
-  text-align:left;
-  padding-top: 10px;
-  color: $white-three;
+  #Recherche {
+    height: 167px;
+    background-color: $earth;
+    text-align:center;
+    #rechercheTitre {
+      padding-top: 10px;
+    }
+    #recherche-avance {
+      font-family:$open-sans;
+      font-size: 10px;
+      text-align:left;
+      padding-top: 10px;
+      color: $white-three;
+    }
+  }
 }
 
                   // <!-- Block 6 -->
-.col-lg-5 {
-  background-color: $white-two;
-}
-#textePhoto2{
-  @extend .texteCourant;
+#block6{
+  .col-lg-5 {
+    background-color: $white-two;
+  }
+  #textePhoto2{
+    @extend .texteCourant;
+  }
+  #lireSuite{
+    display: inline-block;
+    text-align:left;
+    position:fixed;
+  }
+  #decActus{
+    display: inline-block;
+    //text-align:right;
+  }
 }
 
-#lireSuite{
-  display: inline-block;
-  text-align:left;
-  position:fixed;
-}
-
-#decActus{
-  display: inline-block;
-  //text-align:right;
-}
 
                   // <!-- Block 7 -->
-.photoBloc1 {
-  background-size: cover;
-  background-repeat:no-repeat;
-  display: inline-block;
-  float:left;
-  text-align:left;
-  margin-right: 30px;
-  }
-
-.photoBloc2 {
-  background-size: cover;
-  width: 300px;
-  height: 200px;
-  }
-
-#Bloc1{
- margin-bottom:30px;
- margin-top:30px;
- img{
-   background-size: cover;
-   width: 355px;
-   height: 280px;
+#block7{
+  #Bloc1{
+   margin-bottom:30px;
    margin-top:30px;
-   background-repeat:no-repeat;
+   img{
+     background-size: cover;
+     width: 355px;
+     height: 280px;
+     margin-top:30px;
+     background-repeat:no-repeat;
+     }
+   .photoBloc1 {
+     background-size: cover;
+     background-repeat:no-repeat;
+     display: inline-block;
+     float:left;
+     text-align:left;
+     margin-right: 30px;
+     }
+   #texteBloc1{
+     @extend .texteCourant;
+     line-height: 1.5;
+     padding:10px;
+     margin-left:30px;
+     background-color: $backgroundBlock7;
    }
-}
-
-#texteBloc1{
-  @extend .texteCourant;
-  line-height: 1.5;
-  padding:10px;
-  margin-left:30px;
-  background-color: $backgroundBlock7;
-}
-
-#Bloc2{
-  display: inline-block;
-  float:right;
-}
-#Bloc3{
-  display: inline-block;
-}
-#Bloc4{
-  display: inline-block;
-  float:right;
-}
-#Bloc5{
-  display: inline-block;
-}
-
-
-#photoBloc2{
-  max-width: 355px;
-}
-
-#texteBloc2{
-  @extend .texteCourant;
-  max-width: 355px;
-  line-height: 1.5;
-  padding:30px;
-  margin-bottom:30px;
-  background-color: $backgroundBlock7;
-  h3{
-    padding-left:0px;
+  }
+  #Bloc2{
+    display: inline-block;
+    float:right;
+    .photoBloc2 {
+      background-size: cover;
+      width: 300px;
+      height: 200px;
+      }
+    #texteBloc2{
+      @extend .texteCourant;
+      max-width: 355px;
+      line-height: 1.5;
+      padding:30px;
+      margin-bottom:30px;
+      background-color: $backgroundBlock7;
+      h3{
+        padding-left:0px;
+        }
     }
+  }
+  #Bloc3{
+    display: inline-block;
+  }
+  #Bloc4{
+    display: inline-block;
+    float:right;
+  }
+  #Bloc5{
+    display: inline-block;
+  }
 }
+
+
                       // <!-- Block 8 -->
 #block8{
   background-color: $backgroundBlock7;
@@ -147,6 +136,6 @@ float:left;
       color:$charcoal-grey;
       font-family:$open-sans;
       font-size:18px;
-      padding:15px;
+      //padding:15px;
       }
   }

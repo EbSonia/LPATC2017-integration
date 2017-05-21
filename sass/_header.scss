@@ -1,72 +1,39 @@
-.Partageons-la-ville {
-  font-family: $open-sans;
-  font-size: 12px;
-  color: rgba(70, 87, 99, 0.85);
-}
-
-.lorem{
-  @extend .texteCourant;
-  line-height: 1.5;
-  text-align: left;
-}
 
 //<!-- fond -->
 #content {
-  width: 1400px;
-  height: 3317px;
+  //width: 1400px;
+  //height: 3317px;
   background-color: $white-three;
-}
-
-#header #identite {
-  margin-top:32px;
 }
 
 //<!-- Blocks -->
 #block1{
-padding-bottom: 15px;
+  padding-bottom: 15px;
+  #identite {
+  margin-top:32px;
+  }
 }
 
 #block2{
   margin-top:61px;
+  #nav ul{
+    float:left;
+    list-style:none;
+    li{
+      margin-right: 40px;
+      display: inline-block;
+    }
+  }
 }
+
 #block3{
   margin-top:41px;
-}
-
-//<!-- Navigation -->
-#li {
-  font-family: $open-sans;
-  font-size: 18px;
-  text-align: center;
-  color: $charcoal-grey;
-  list-style:none;
-}
-
-#header #nav ul{
-  //height: 63px;
-  float:left;
-  //margin-left: 52px;
-  list-style:none;
-}
-
-#header #nav li{
-  //float:left;
-  margin-right: 40px;
-  //margin-top: 61px;
-  //margin-right: 287px;
-  display: inline-block;
-}
-
-//<!-- Recherche + Menu -->
-#header #nav-bis ul{
-  //height: 63px;
-  //float:left;
-  display: inline-block;
-  list-style:none;
-}
-#header #nav-bis li{
-  float:right;
-  padding-right: 40px;
-  //margin-right: 30px;
-  //margin-top: 54px;
+  #nav-bis ul{
+    display: inline-block;
+    list-style:none;
+    li{
+      float:right;
+      padding-right: 40px;
+    }
+  }
 }
