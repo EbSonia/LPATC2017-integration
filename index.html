@@ -21,8 +21,8 @@
 <div id="container">
 <div id="content">
   <!-- Header -->
+<section id="header">
   <div class="container">
-    <div id="header">
       <div class="row">
         <div id="block1" class="col-md-3">
              <div id="identite">
@@ -31,7 +31,7 @@
              </div>
         </div>
         <div id="block2" class="col-md-7">
-             <div id="nav">
+             <nav id="nav">
                <ul>
                  <li><a href="#"></a>L'ASSOCIATION</li>
                  <li><a href="#"></a>OPEN DATA</li>
@@ -39,7 +39,7 @@
                  <li><a href="#"></a>ENGLISH</li>
                  <li><a href="#"></a>DEUTSCH</li>
                </ul>
-             </div>
+             </nav>
         </div>
         <div id="block3" class="col-md-2">
                <div id="nav-bis">
@@ -51,14 +51,13 @@
         </div>
       </div>
     </div>
-  </div>
-
+  </section>
 
   <!-- Main -->
-<div id="main">
+<section class="recherches">
    <div class="container">   <!-- partie RECHERCHES -->
        <div class="row">
-             <div id="block4" class="col-12">
+             <article id="block4" class="col-12">
                 <div id="photo1"><img class=img-responsive src="images/photo1b.png" style=max-width:85%></div>
                 <div id="textePhoto1">
                     <div id="retrait">
@@ -70,9 +69,9 @@
                    <p class="lorem">Lorem ipsum Cum saepe multa, tum memini domi in hemicyclio sedentem, ut solebat, cum et ego essem una et pauci admodum familiares, in eum sermonem illum incidere qui tum forte multis erat in ore. Meministi enim profecto, Attice, et eo magis, quod P. Sulpicio utebare multum.</p>
                    <p class="lien">Découvrez cette fiche</p>
                 </div>
-             </div>
+             </article>
 
-             <div id="block5" class="">
+             <article id="block5" class="">
                 <div id="Recherche">
                      <div id="rechercheTitre">
                         <h3 class="text-center">Recherchez à travers nos 11 257 adresses et 61 652 photos :</h3>
@@ -89,11 +88,11 @@
                       </div>
                       <div class="col-lg-3">
                             <p id="recherche-avance">Recherche avancée</p>
-                      </div><!-- fin recherche -->
-                </div>
-             </div>
+                      </div>
+                </div><!-- fin recherche -->
+             </article>
 
-             <div id="block6">
+             <article id="block6">
                    <div class="col-lg-5">
                      <h3> Archi-Wiki, c'est qui ?</h3><br/>
                      <p class="lorem">Avant de devenir Archi-Wiki, notre site s'est développé à Strasbourg, avec plus de 10000 bâtiments et lieux recensés depuis 2008.
@@ -113,13 +112,15 @@
                                   <div id="decActus"><p class="lien">découvrir les autres actualités</p></div>
                         </div>
                    </div>
-             </div>
+             </article>
        </div>
    </div>
+</section>
 
-   <div class="container"> <!-- partie ANNONCES -->
+<section class="annonces"><!-- partie ANNONCES -->
+   <div class="container"> 
        <div class="row">
-             <div class="col-lg-8" id="block7">
+             <section class="col-lg-8" id="block7">
                 <h2>Dernières modifications</h2>
                   <div id="Bloc1">
                     <div class="photoBloc1" style="background-image:url(images/photo1.jpeg)">
@@ -176,10 +177,9 @@
                           <p class="lien">Consulter la fiche ></p>
                       </div>
                   </div>
+             </section>
 
-             </div>
-
-             <div class="col-lg-4">         <!--aside -->
+             <aside class="col-lg-4">         <!--aside -->
                 <h2>Dernièrs commentaires</h2>
                   <div id="block8">
                     <h4>36 rue Aubry-et-Rau</h4>
@@ -226,10 +226,10 @@
                     <p class="loremItalique">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, posuere nec vulputate ac, lacinia eget odio. Nulla facilisi. Proin quis cursus felis, quis vestibulum ex.</p>
                     <p class="lien">Consulter le commentaire ></p>
                   </div>
-             </div>
+             </aside>
 
 
-             <div id="block9">
+             <section id="block9">
                    <div class="btn-group btn-group-justified" role="group" aria-label="...">
                      <div class="btn-group" role="group">
                        <button type="button" class="btn btn-default">TOUTES LES DERNIERES MODIFICATIONS</button>
@@ -241,18 +241,17 @@
                        <button type="button" class="btn btn-default">TOUS LES DERNIERS COMMENTAIRES</button>
                      </div>
                    </div>
-             </div>
+             </section>
        </div>
    </div>
-
- </div> <!-- FIN MAIN -->
+ </section> <!-- FIN MAIN -->
 
 
 
   <!-- Footer -->
 
-   <div class="container">
-       <div id="footer">
+ <footer id="footer">
+    <div class="container">
          <div class="row">
            <div id="block10" class="col-lg-3">
              <img src="images/logo-archi-wiki.png">
@@ -273,10 +272,9 @@
                <li><i class="fa fa-instagram fa-lg" aria-hidden="true"></i><a href="#"></a> archi_strasbourg</li>
              </ul>
            </div>
-
         </div>
      </div>
-  </div>
+  </footer>
 
 
 </div>
