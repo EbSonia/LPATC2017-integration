@@ -21,6 +21,12 @@ $montserrat:'Montserrat',sans-serif;
   line-height: 1.71;
   //text-align: left;
   color: $earth;
+  a, a:visited {
+    color: $earth;
+}
+  a:hover, a:focus, a:active {
+    color: $dark;
+}
 }
 
 .lorem{

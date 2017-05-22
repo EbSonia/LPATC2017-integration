@@ -1,14 +1,17 @@
 
             // <!-- Block 4 -->
-#photo1{
-display: inline-block;
-float:left;
+#block4{
+  .titreTextePhoto1{
+    margin-left:-150px;
+    //margin-top:30px;
+    margin-bottom:30px;
+    background-color:$white-three;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 30px;
+  }
 }
 
-#textePhoto1{
-  display: inline-block;
-  margin-left:-500px;
-}
 
               // <!-- Block 5 -->
 #block5{
@@ -35,6 +38,7 @@ float:left;
 #block6{
   .col-lg-5 {
     background-color: $white-two;
+    padding-left:30px;
   }
   #textePhoto2{
     @extend .texteCourant;
@@ -50,68 +54,73 @@ float:left;
   }
 }
 
-
                   // <!-- Block 7 -->
-#block7{
-  #Bloc1{
-   margin-bottom:30px;
+.photoBloc1 {
+  background-size: cover;
+  background-repeat:no-repeat;
+  display: inline-block;
+  float:left;
+  text-align:left;
+  margin-right: 30px;
+  }
+
+.photoBloc2 {
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  }
+
+#Bloc1{
+ margin-bottom:30px;
+ margin-top:30px;
+ img{
+   background-size: cover;
+   width: 355px;
+   height: 280px;
    margin-top:30px;
-   img{
-     background-size: cover;
-     width: 355px;
-     height: 280px;
-     margin-top:30px;
-     background-repeat:no-repeat;
-     }
-   .photoBloc1 {
-     background-size: cover;
-     background-repeat:no-repeat;
-     display: inline-block;
-     float:left;
-     text-align:left;
-     margin-right: 30px;
-     }
-   #texteBloc1{
-     @extend .texteCourant;
-     line-height: 1.5;
-     padding:10px;
-     margin-left:30px;
-     background-color: $backgroundBlock7;
+   background-repeat:no-repeat;
    }
-  }
-  #Bloc2{
-    display: inline-block;
-    float:right;
-    .photoBloc2 {
-      background-size: cover;
-      width: 300px;
-      height: 200px;
-      }
-    #texteBloc2{
-      @extend .texteCourant;
-      max-width: 355px;
-      line-height: 1.5;
-      padding:30px;
-      margin-bottom:30px;
-      background-color: $backgroundBlock7;
-      h3{
-        padding-left:0px;
-        }
-    }
-  }
-  #Bloc3{
-    display: inline-block;
-  }
-  #Bloc4{
-    display: inline-block;
-    float:right;
-  }
-  #Bloc5{
-    display: inline-block;
-  }
+}
+
+#texteBloc1{
+  @extend .texteCourant;
+  line-height: 1.5;
+  padding:10px;
+  margin-left:30px;
+  background-color: $backgroundBlock7;
+}
+
+#Bloc2{
+  display: inline-block;
+  float:right;
+}
+#Bloc3{
+  display: inline-block;
+}
+#Bloc4{
+  display: inline-block;
+  float:right;
+}
+#Bloc5{
+  display: inline-block;
 }
 
 
+#photoBloc2{
+  max-width: 355px;
+}
+
+#texteBloc2{
+  @extend .texteCourant;
+  max-width: 355px;
+  line-height: 1.5;
+  padding:30px;
+  margin-bottom:30px;
+  background-color: $backgroundBlock7;
+  h3{
+    padding-left:0px;
+    }
+}
                       // <!-- Block 8 -->
 #block8{
   background-color: $backgroundBlock7;
@@ -136,6 +145,6 @@ float:left;
       color:$charcoal-grey;
       font-family:$open-sans;
       font-size:18px;
-      //padding:15px;
+      padding:15px;
       }
   }

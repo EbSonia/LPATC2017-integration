@@ -13,11 +13,16 @@
   ul{
     margin-top:34px;
     list-style:none;
-    line-height: 4em;
+    line-height: 3em;
     text-align: center;
     }
-  img{
-    padding-bottom:30px;
+  li{
+    a, a:visited {
+      color: $white-three;
+      }
+    a:hover, a:focus, a:active {
+      color: $dark;
+      }
     }
   }
   #block11{
@@ -35,12 +40,20 @@
   font-size: 16px;
   text-align: center;
   color: $white-three;
+  margin-top:30px;
+  //margin-bottom: 30px;
   ul{
     list-style:none;
-    line-height: 5em;
+    line-height: 4em;
     li{
       border: solid 2px $white-three;
-      margin:auto;
+      margin:20px;
+      a, a:visited {
+        color: $white-three;
+        }
+      a:hover, a:focus, a:active {
+        color: $dark;
+        }
       }
     }
   }
